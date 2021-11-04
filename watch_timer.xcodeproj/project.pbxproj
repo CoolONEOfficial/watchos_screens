@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B7E59627342FE3008DEE7C /* HeartrateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7E59527342FE3008DEE7C /* HeartrateView.swift */; };
+		85B7E59827342FEC008DEE7C /* HeartrateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7E59727342FEC008DEE7C /* HeartrateViewModel.swift */; };
+		85B7E59A2734300F008DEE7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7E5992734300F008DEE7C /* ContentView.swift */; };
+		85B7E59D27345A29008DEE7C /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 85B7E59C27345A29008DEE7C /* SwiftUIX */; };
+		85B7E59F27345CCF008DEE7C /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 85B7E59E27345CCF008DEE7C /* DynamicColor */; };
+		85B7E5A1273462EA008DEE7C /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7E5A0273462EA008DEE7C /* CallView.swift */; };
+		85B7E5A7273464C8008DEE7C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B7E5A6273464C8008DEE7C /* FeedView.swift */; };
 		85BCCF2E27330341005430E6 /* watch_timer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 85BCCF2D27330341005430E6 /* watch_timer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		85BCCF3327330344005430E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BCCF3227330344005430E6 /* Assets.xcassets */; };
 		85BCCF3927330344005430E6 /* watch_timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 85BCCF3827330344005430E6 /* watch_timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		85BCCF3E27330344005430E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BCCF3D27330344005430E6 /* ContentView.swift */; };
+		85BCCF3E27330344005430E6 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BCCF3D27330344005430E6 /* TimerView.swift */; };
 		85BCCF4027330344005430E6 /* watch_timerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BCCF3F27330344005430E6 /* watch_timerApp.swift */; };
 		85BCCF4227330344005430E6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BCCF4127330344005430E6 /* ComplicationController.swift */; };
 		85BCCF4427330345005430E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BCCF4327330345005430E6 /* Assets.xcassets */; };
 		85BCCF4727330345005430E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BCCF4627330345005430E6 /* Preview Assets.xcassets */; };
+		85BCCF57273304B1005430E6 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BCCF56273304B1005430E6 /* TimerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,16 +68,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		85B7E59527342FE3008DEE7C /* HeartrateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartrateView.swift; sourceTree = "<group>"; };
+		85B7E59727342FEC008DEE7C /* HeartrateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartrateViewModel.swift; sourceTree = "<group>"; };
+		85B7E5992734300F008DEE7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85B7E5A0273462EA008DEE7C /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		85B7E5A6273464C8008DEE7C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		85BCCF2927330341005430E6 /* watch_timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watch_timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BCCF2D27330341005430E6 /* watch_timer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch_timer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BCCF3227330344005430E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85BCCF3827330344005430E6 /* watch_timer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watch_timer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85BCCF3D27330344005430E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85BCCF3D27330344005430E6 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		85BCCF3F27330344005430E6 /* watch_timerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_timerApp.swift; sourceTree = "<group>"; };
 		85BCCF4127330344005430E6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		85BCCF4327330345005430E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85BCCF4627330345005430E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85BCCF4827330345005430E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85BCCF56273304B1005430E6 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,18 +91,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B7E59F27345CCF008DEE7C /* DynamicColor in Frameworks */,
+				85B7E59D27345A29008DEE7C /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85B7E59227342F85008DEE7C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				85B7E5A3273464AE008DEE7C /* Feed */,
+				85B7E5A2273462EF008DEE7C /* Call */,
+				85B7E59427342FC6008DEE7C /* Heartrate */,
+				85B7E59327342F8E008DEE7C /* Timer */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		85B7E59327342F8E008DEE7C /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				85BCCF3D27330344005430E6 /* TimerView.swift */,
+				85BCCF56273304B1005430E6 /* TimerViewModel.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		85B7E59427342FC6008DEE7C /* Heartrate */ = {
+			isa = PBXGroup;
+			children = (
+				85B7E59527342FE3008DEE7C /* HeartrateView.swift */,
+				85B7E59727342FEC008DEE7C /* HeartrateViewModel.swift */,
+			);
+			path = Heartrate;
+			sourceTree = "<group>";
+		};
+		85B7E59B27345A29008DEE7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85B7E5A2273462EF008DEE7C /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				85B7E5A0273462EA008DEE7C /* CallView.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		85B7E5A3273464AE008DEE7C /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				85B7E5A6273464C8008DEE7C /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		85BCCF2227330341005430E6 = {
 			isa = PBXGroup;
 			children = (
 				85BCCF3127330341005430E6 /* watch_timer WatchKit App */,
 				85BCCF3C27330344005430E6 /* watch_timer WatchKit Extension */,
 				85BCCF2A27330341005430E6 /* Products */,
+				85B7E59B27345A29008DEE7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,8 +182,9 @@
 		85BCCF3C27330344005430E6 /* watch_timer WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				85BCCF3D27330344005430E6 /* ContentView.swift */,
+				85B7E59227342F85008DEE7C /* Screens */,
 				85BCCF3F27330344005430E6 /* watch_timerApp.swift */,
+				85B7E5992734300F008DEE7C /* ContentView.swift */,
 				85BCCF4127330344005430E6 /* ComplicationController.swift */,
 				85BCCF4327330345005430E6 /* Assets.xcassets */,
 				85BCCF4827330345005430E6 /* Info.plist */,
@@ -147,6 +217,11 @@
 				85BCCF3027330341005430E6 /* PBXTargetDependency */,
 			);
 			name = watch_timer;
+			packageProductDependencies = (
+				85BCCF5B27330824005430E6 /* PureSwiftUI */,
+				85BCCF5D2733084A005430E6 /* SwiftUIX */,
+				85BCCF5F27330F53005430E6 /* DynamicColor */,
+			);
 			productName = watch_timer;
 			productReference = 85BCCF2927330341005430E6 /* watch_timer.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
@@ -181,6 +256,10 @@
 			dependencies = (
 			);
 			name = "watch_timer WatchKit Extension";
+			packageProductDependencies = (
+				85B7E59C27345A29008DEE7C /* SwiftUIX */,
+				85B7E59E27345CCF008DEE7C /* DynamicColor */,
+			);
 			productName = "watch_timer WatchKit Extension";
 			productReference = 85BCCF3827330344005430E6 /* watch_timer WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -215,6 +294,11 @@
 				Base,
 			);
 			mainGroup = 85BCCF2227330341005430E6;
+			packageReferences = (
+				85BCCF5A27330824005430E6 /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+				85BCCF5C2733084A005430E6 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				85BCCF5E27330F53005430E6 /* XCRemoteSwiftPackageReference "DynamicColor" */,
+			);
 			productRefGroup = 85BCCF2A27330341005430E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85BCCF3E27330344005430E6 /* ContentView.swift in Sources */,
+				85B7E5A1273462EA008DEE7C /* CallView.swift in Sources */,
+				85B7E5A7273464C8008DEE7C /* FeedView.swift in Sources */,
+				85BCCF57273304B1005430E6 /* TimerViewModel.swift in Sources */,
+				85B7E59827342FEC008DEE7C /* HeartrateViewModel.swift in Sources */,
+				85B7E59A2734300F008DEE7C /* ContentView.swift in Sources */,
+				85BCCF3E27330344005430E6 /* TimerView.swift in Sources */,
 				85BCCF4027330344005430E6 /* watch_timerApp.swift in Sources */,
+				85B7E59627342FE3008DEE7C /* HeartrateView.swift in Sources */,
 				85BCCF4227330344005430E6 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +658,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85BCCF5A27330824005430E6 /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		85BCCF5C2733084A005430E6 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.9;
+			};
+		};
+		85BCCF5E27330F53005430E6 /* XCRemoteSwiftPackageReference "DynamicColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/DynamicColor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85B7E59C27345A29008DEE7C /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85BCCF5C2733084A005430E6 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		85B7E59E27345CCF008DEE7C /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85BCCF5E27330F53005430E6 /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
+		85BCCF5B27330824005430E6 /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85BCCF5A27330824005430E6 /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+		85BCCF5D2733084A005430E6 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85BCCF5C2733084A005430E6 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		85BCCF5F27330F53005430E6 /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85BCCF5E27330F53005430E6 /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85BCCF2327330341005430E6 /* Project object */;
 }

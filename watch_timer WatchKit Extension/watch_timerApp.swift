@@ -13,7 +13,7 @@ struct watch_timerApp: App {
         WindowGroup {
             NavigationView {
                 ContentView()
-            }
+            }.tint(.red)
         }
     }
 }
